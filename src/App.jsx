@@ -5,7 +5,7 @@ import Nav from "./components/Nav";
 
 function App() {
   return (
-    <div className="px-5">
+    <div className="lg:px-5">
       <Nav />
     </div>
   );
