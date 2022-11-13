@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/Vector.png";
 import name from "../assets/name.png";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Nav = () => {
   return (
     <div>
@@ -32,9 +33,19 @@ const Nav = () => {
             Connect Wallet
           </button>
         </div>
-      </div> 
-      <div className="lg:hidden  bg-fuchsia-400 w-screen p-5"></div>
-      
+      </div>
+      <div className="lg:hidden ">
+        <div className=" w-screen p-3">
+          <div className="flex  items-center justify-between">
+            <div className="flex items-center">
+              <img src={logo} alt="" className="object-contain mr-1" />
+              <img src={name} alt="" className="object-contain w-20" />
+            </div>
+            <img src="" alt="" />
+            <AiOutlineMenu size={22} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
