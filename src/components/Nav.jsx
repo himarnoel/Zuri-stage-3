@@ -26,7 +26,7 @@ const Nav = () => {
         </a>
         <a></a>
       </div>
-      <button className="p-5 bg-[#A02279] rounded-md text-white">
+      <button className="p-3 bg-[#A02279] rounded-md text-white">
         Connect Wallet
       </button>
     </div>
