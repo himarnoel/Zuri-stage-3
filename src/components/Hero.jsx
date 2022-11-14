@@ -46,7 +46,7 @@ const Hero = () => {
               alt=""
               className="object-contain w-36 lg:w-60 mb-3 2xl:w-80 "
             />
-            <img src={img2} alt="" className="object-contain w-36 lg:w-80 2xl:w-80 " />
+            <img src={img2} alt="" className="object-contain w-36 lg:w-60 2xl:w-80 " />
           </div>
         </div>
       </div>
