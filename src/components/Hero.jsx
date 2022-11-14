@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div>
       <div className="w-full grid lg:grid-cols-2   text-black lg:mt-32  mt-10 justify-between ">
-        <div className="p-5">
+        <div className="p-2">
           <p className="text-5xl mb-3 text-center lg:text-left mt-10">
             Rent a <a className="text-[#A02279]">Place</a> away from
             <br />
@@ -18,7 +18,7 @@ const Hero = () => {
             metaverse, get a chance to turn your imagination to reality at your
             comfort zone
           </p>
-          <div className="flex lg:mt-20  mt-16 mx-auto md:justify-center lg:justify-start">
+          <div className="flex lg:mt-20  mt-16 mx-auto justify-center lg:justify-start">
             <input
               type="text"
               placeholder="Search for location"
