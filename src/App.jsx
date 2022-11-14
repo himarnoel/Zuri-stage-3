@@ -7,7 +7,7 @@ import Tape from './components/Tape';
 
 function App() {
   return (
-    <div className="lg:px-28">
+    <div className="lg:px- xl:px-28">
       <Nav />
       <Hero />
       <Tape/>

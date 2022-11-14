@@ -14,14 +14,14 @@ const Nav = () => {
             <img src={logo} alt="" className="object-contain mr-3" />
             <img src={name} alt="" className="object-contain" />
           </div>
-          <div className="flex text-xl p-5  w-1/2 justify-center ">
-            <a className="lg:mr-10 xl:mr-20" href="/">
+          <div className="flex text-xl   w-1/2 justify-evenly items-center ">
+            <a className="" href="/">
               Home
             </a>
-            <a className="lg:mr-10 xl:mr-20" href="/">
+            <a className="" href="/">
               Place to Stay
             </a>
-            <a className="lg:mr-10 xl:mr-20" href="/">
+            <a className="" href="/">
               NFTS
             </a>
             <a className="" href="/">

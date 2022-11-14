@@ -6,7 +6,7 @@ import img4 from "../assets/image4.png";
 const Hero = () => {
   return (
     <div>
-      <div className="w-full grid lg:grid-cols-2   text-black lg:mt-20  mt-10 justify-between">
+      <div className="w-full grid lg:grid-cols-2   text-black lg:mt-20  mt-10 justify-between 2xl:gap-y-10">
         <div className="p-10">
           <p className="text-5xl mb-3 text-center lg:text-left">
             Rent a <a className="text-[#A02279]">Place</a> away from
@@ -31,22 +31,22 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-row items-center  lg:ml-80 mx-auto">
+        <div className="flex flex-row items-center  lg:mb-64 lg:p-2 xl:p-0 mx-auto 2xl:ml-40 ">
           <div className="flex flex-col mr-5 mt-28">
             <img
               src={img1}
               alt=""
-              className="object-contain w-36 lg:w-60 mb-3"
+              className="object-contain w-36 lg:w-60 mb-3 2xl:w-80 "
             />
-            <img src={img4} alt="" className="object-contain w-36 lg:w-60" />
+            <img src={img4} alt="" className="object-contain w-36 lg:w-60 2xl:w-80  " />
           </div>
           <div className="flex flex-col ">
             <img
               src={img3}
               alt=""
-              className="object-contain w-36 lg:w-60 mb-3"
+              className="object-contain w-36 lg:w-60 mb-3 2xl:w-80 "
             />
-            <img src={img2} alt="" className="object-contain w-36 lg:w-60" />
+            <img src={img2} alt="" className="object-contain w-36 lg:w-80 2xl:w-80 " />
           </div>
         </div>
       </div>
