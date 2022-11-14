@@ -5,7 +5,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Nav = () => {
   return (
     <div>
-      <div className="hidden lg:block">
+      <div className="hidden lg:block lg:fixed lg:top-0  bg-white w-full pr-48">
         <div
           className=" 
      mx-auto  p-5 flex justify-between items-center w-full "
@@ -34,7 +34,7 @@ const Nav = () => {
           </button>
         </div>
       </div>
-      <div className="lg:hidden ">
+      <div className="lg:hidden fixed top-0 bg-white">
         <div className=" w-screen p-3">
           <div className="flex  items-center justify-between">
             <div className="flex items-center">
