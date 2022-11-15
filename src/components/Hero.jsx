@@ -31,7 +31,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-row items-center  lg:mb-64 lg:p-2 xl:p-0 mx-auto 2xl:ml-40 ">
+        <div className="flex flex-row items-center  lg:mb-20 lg:p-2 xl:p-0 mx-auto 2xl:ml-40 ">
           <div className="flex flex-col mr-5 mt-28">
             <img
               src={img1}
