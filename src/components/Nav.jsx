@@ -5,7 +5,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Nav = () => {
   return (
     <div>
-      <div className="hidden lg:block lg:fixed lg:top-0  bg-white w-full pr-48">
+      <div className="hidden lg:block  lg:top-0  bg-white w-full pr-48">
         <div
           className=" 
      mx-auto  p-5 flex justify-between items-center w-full "

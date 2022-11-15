@@ -1,10 +1,10 @@
 import React from "react";
-import num1 from "../assets/cards/1.png";
-const Card = () => {
+
+const Card = (props) => {
   return (
     <div>
-      <div className=" border-2 p-3 lg:w-[21rem] w-[18rem] mb-20 mx-auto mt-10  rounded-xl">
-        <img src={num1} alt="" className="object-contain " />
+      <div className=" border-2 p-3 lg:w-[21rem] w-[18rem]  mx-auto mt-10  rounded-xl">
+        <img src={props.img} alt="" className="object-contain mx-auto" />
         <div className="mt-2">
           <div className="flex justify-between text-black mt-2">
             <p>Desert King</p>
