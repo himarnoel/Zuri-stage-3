@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Tape from "./components/Tape";
 import Card from "./components/Card";
+import Display from './components/Display';
 
 function App() {
   return (
@@ -14,10 +15,10 @@ function App() {
         <Hero />
       </div>
       <Tape />
-      <div className="text-center lg:text-xl xl:text-4xl text-xl">
+      <div className="text-center lg:text-xl xl:text-4xl text-xl mt-3">
         Inspiration for your next adventure
       </div>
-      <Card />
+      <Display/>
     </div>
   );
 }
