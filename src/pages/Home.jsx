@@ -19,7 +19,7 @@ const Home = () => {
       </div>
       <Display />
       <Nft />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

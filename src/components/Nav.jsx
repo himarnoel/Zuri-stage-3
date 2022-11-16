@@ -4,6 +4,7 @@ import name from "../assets/name.png";
 import { Link } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Nav = () => {
+  const [change, setchange] = React.useState(false);
   return (
     <div>
       <div className="hidden lg:block  w-full px-[7rem] bg-white mx-auto">
@@ -43,9 +44,24 @@ const Nav = () => {
               <img src={name} alt="" className="object-contain w-20" />
             </div>
             <img src="" alt="" />
-            <AiOutlineMenu size={22} />
+            <div className="dfa" onClick={() => setchange(!change)}>
+              <AiOutlineMenu size={22} />
+            </div>
           </div>
         </div>
+        {change ? (
+          <div className="fixed bg-white h-[12rem] w-full flex flex-col items-center justify-evenly">
+            <Link to="/stay">Home</Link>
+            <Link to="/stay">Place to Stay</Link>
+            <Link to="/">NFTS</Link>
+            <Link to="/">Community</Link>
+            <button className="p-3 bg-[#A02279] rounded-md text-white">
+              Connect Wallet
+            </button>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
