@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/Vector.png";
 import name from "../assets/name.png";
+import { Link } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Nav = () => {
   return (
@@ -18,9 +19,9 @@ const Nav = () => {
             <a className="" href="/">
               Home
             </a>
-            <a className="" href="/">
+            <Link className="" to="/stay">
               Place to Stay
-            </a>
+            </Link>
             <a className="" href="/">
               NFTS
             </a>
