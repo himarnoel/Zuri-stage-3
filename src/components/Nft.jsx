@@ -4,7 +4,7 @@ import img2 from "../assets/purple/image 8.png";
 import img3 from "../assets/purple/image 9.png";
 const Nft = () => {
   return (
-    <div className="lg:p-32 lg:py-48 pb-[10rem]  md:pb-[20rem] bg-[#A02279] grid lg:grid-cols-2 mt-8 gap-x-[20rem] ">
+    <div className="lg:p-32 lg:pb-[12rem] pb-[10rem]  md:pb-[20rem] bg-[#A02279] grid lg:grid-cols-2 mt-8 gap-x-[20rem] ">
       <div className="text-white  flex flex-col lg:items-start items-center">
         <p className="text-3xl mt-5">Metabnb NFTs</p>
         <p className="text-base mt-5 text-center">
