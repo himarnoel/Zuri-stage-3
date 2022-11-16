@@ -52,7 +52,7 @@ const Nav = () => {
         {change ? (
           <div className="fixed bg-white h-[12rem] w-full flex flex-col items-center justify-evenly">
             <Link to="/stay">Home</Link>
-            <Link to="/stay">Place to Stay</Link>
+            <Link to="/">Place to Stay</Link>
             <Link to="/">NFTS</Link>
             <Link to="/">Community</Link>
             <button className="p-3 bg-[#A02279] rounded-md text-white">
