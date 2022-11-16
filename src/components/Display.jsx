@@ -11,7 +11,7 @@ import num8 from "../assets/cards/8.png";
 
 const Display = () => {
   return (
-    <div className="grid lg:grid-cols-4 md:grid-cols-2">
+    <div className="grid lg:grid-cols-4 md:grid-cols-2 lg:px-16  ">
       <Card img={num1} />
       <Card img={num2} />
       <Card img={num3} />

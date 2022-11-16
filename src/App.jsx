@@ -7,6 +7,7 @@ import Tape from "./components/Tape";
 import Card from "./components/Card";
 import Display from "./components/Display";
 import Nft from "./components/Nft";
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       </div>
       <Display />
       <Nft />
+      <Footer/>
     </div>
   );
 }

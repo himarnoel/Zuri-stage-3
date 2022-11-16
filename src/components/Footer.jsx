@@ -2,7 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+        <div className="bg-black grid lg:grid-cols-4"></div>
+    </div>
   )
 }
 
