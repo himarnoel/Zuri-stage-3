@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <div>
       <Nav />
+      <a href="https://theedifyingassembly.org/sermon/store/bba.html" className="text-5xl ">Message</a>
       <div className="lg:px-14 xl:px-28">
         <Hero />
       </div>
